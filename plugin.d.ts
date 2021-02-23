@@ -10,10 +10,11 @@ declare module 'fastify' {
 export interface FastifyKeycloakOptions {
   options: KeycloakOptions;
   config?: KeycloakConfig;
-  middleware: {
+  middleware?: {
     admin?: string;
     logout?: string;
-  }
+  };
+  prototypes?: Record<string, unknown>
 }
 
 declare const fastifyKeycloak: FastifyPluginCallback<NonNullable<FastifyKeycloakOptions>>;
