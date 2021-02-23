@@ -32,17 +32,11 @@ fastify.register(fastifyKeycloak, {
 });
 ```
 
-### With fastify cookie only
+### With fastify cookie only [TODO]
 
 ```js
 const fastifyKeycloak = require("fastify-keycloak");
 const Cookie = require("fastify-cookie");
-
-// we need to patch cookie method
-fastify.register(Cookie)
-  .after(() => {
-    fastify.decorateResponse('cookie', fastify.setCookie)
-  });
 
 fastify.register(fastifyKeycloak, {
   options: { cookies: true },
