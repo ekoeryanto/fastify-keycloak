@@ -1,5 +1,5 @@
 const fp = require('fastify-plugin')
-const Keycloak = require('keycloak-connect')
+const Keycloak = require('./Keycloak')
 
 module.exports = fp((fastify, opts, next) => {
   const {

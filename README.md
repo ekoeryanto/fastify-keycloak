@@ -32,7 +32,7 @@ fastify.register(fastifyKeycloak, {
 });
 ```
 
-### With fastify cookie only [TODO]
+### With fastify cookie only
 
 ```js
 const fastifyKeycloak = require("fastify-keycloak");
