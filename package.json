@@ -1,6 +1,6 @@
 {
   "name": "fastify-keycloak",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Fastify Keycloak connect integration.",
   "main": "plugin.js",
   "types": "plugin.d.ts",
@@ -28,5 +28,12 @@
   },
   "peerDependencies": {
     "fastify": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "@typescript-eslint/eslint-plugin": "^4.15.2",
+    "eslint-config-airbnb-base-typescript": "^1.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "typescript": "~4.0.0"
   }
 }
