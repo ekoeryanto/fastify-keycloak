@@ -1,6 +1,6 @@
 {
   "name": "fastify-keycloak",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Fastify Keycloak connect integration.",
   "main": "plugin.js",
   "types": "plugin.d.ts",
